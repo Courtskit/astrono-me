@@ -9,9 +9,22 @@
 </head>
 
 <body>
-  <header></header>
+  <header>
+    <h1>AstroMe</h1>
+  </header>
   <main>
-    <h1>test</h1>
+    <section>
+      <% photos.forEach(photo=> { %>
+        <div>
+          <img src="<%= photo.imgUrl %>" alt="space photo">
+          <h2><%= photo.title %></h2>
+          <h3><%= photo.date %></h3>
+          <p><%= photo.explanation %></p>
+          <h4><%= photo.credit %></h4>
+        </div>
+
+      <% }) %>
+    </section>
   </main>
   <footer></footer>
 </body>

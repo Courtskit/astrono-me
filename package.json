@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/Courtskit/astrono-me#readme",
   "dependencies": {
+    "dotenv": "^14.2.0",
     "ejs": "^3.1.6",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "superagent": "^7.0.2"
   }
 }
