@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300&display=swap');
+
+body {
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  width: 90%;
+  background-image: linear-gradient(to right top, #cb6ea3, #c077b4, #b380c2, #a389cd, #9292d5, #8188cc, #707ec2, #5e75b9, #4c59a0, #3b3d87, #28036b, #160139);
+  color: white;
+}
+header {
+  padding: 140px 0;
+}
+h1 {
+  font-family: 'Lora', serif;
+}
+h2 {
+  font-size: .90em;
+}
+h3 {
+  padding-top: 20px;
+}
+h4 {
+  font-size: .75em;
+}
+p {
+  font-size: .85em;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+.link:hover {
+  color:rgb(32, 255, 32);
+}
