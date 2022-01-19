@@ -32,3 +32,9 @@ p {
 .link:active {
   color:rgb(32, 255, 32);
 }
+.post {
+  border-top: transparent;
+  border-radius: 2%;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.105);
+}
