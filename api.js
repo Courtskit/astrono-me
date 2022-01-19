@@ -10,7 +10,7 @@ function photo(obj) {
 }
 
 async function handler(req, res) {
-  let url = `https://api.nasa.gov/planetary/apod?&start_date=2022-01-01&end_date=2022-01-18`;
+  let url = `https://api.nasa.gov/planetary/apod?&start_date=2022-01-01`;
   let data = await superagent
     .get(url)
     .query({ api_key: process.env.NASA_API_KEY })
