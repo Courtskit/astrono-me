@@ -29,6 +29,6 @@ p {
   margin: auto;
   padding-bottom: 40px;
 }
-.link:hover {
+.link:active {
   color:rgb(32, 255, 32);
 }
