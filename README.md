@@ -1,5 +1,4 @@
 # AstronoMe  
----
 
 Explore the depths of space.
 # Table of contents
