@@ -1,4 +1,6 @@
-# AstronoMe
+# AstronoMe  
+---
+
 Explore the depths of space.
 # Table of contents
 1. [Astronomy Picture of the Day](#AstronomyPictureoftheDay)
